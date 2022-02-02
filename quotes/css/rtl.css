@@ -1,0 +1,36 @@
+.budget_slider span:after {
+  content: 'ريال';
+}
+
+.content-left-wrapper {
+  background: linear-gradient(45deg, #3a3a3a, #222831);
+}
+button.backward, button.forward, button.submit {
+  background: linear-gradient(45deg, #8a98ab, #222831);
+}
+.container_check input:checked ~ .checkmark {
+  background: linear-gradient(45deg, #808fa6, #222831);
+}
+button.backward, button.forward, button.submit {
+  color: #fff!important;
+}
+.rangeslider__fill {
+  background: linear-gradient(270deg, #cb4e4a, #f6a33c)!important;
+}
+.budget_slider span {
+  color: #f65464;
+}
+.ui-widget-header {
+  background: linear-gradient(90deg, #b0bec9, #343739)!important;
+}
+.summary ul li h5 {
+  font-weight: 600;
+  color: #2b3139;
+}
+.backward:hover, .backward:hover, .forward:hover {
+  color: #fff;
+  background: linear-gradient(45deg, #ff9191, #f15c58);
+}
+#slider-range, #slider-range *{
+  direction: ltr;
+}

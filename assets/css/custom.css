@@ -1,0 +1,471 @@
+.page-item{
+    border: none;
+    margin: 0 5px;
+}
+.page-item .page-link {
+    z-index: 3;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 2.25rem;
+    min-width: 2.25rem;
+    padding: 0.5rem;
+    -webkit-transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, -webkit-box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+    position: relative;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    font-weight: 500;
+    border-radius: 0.42rem;
+    color: #80808F;
+}
+
+.page-item.active .page-link {
+    background-color: #6993FF;
+    border-color: #6993FF;
+    color: #ffffff;
+}
+.pointer{
+    cursor: pointer;
+}
+table .min-width{
+    min-width: 130px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.checkbox-checked span:after{
+    background-color: #6993ff!important;
+    opacity: 1!important;
+    margin-left: 26px!important;
+    transition: all ease-in-out .4s;
+}
+.team-category .card-body{
+    padding: 0!important;
+    width: 100%!important;
+    height: 160px!important;
+    position: relative;
+}
+.team-category .card-body .overlay {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000050;
+    text-align: center;
+    padding-top: 55px;
+    border-radius: 5px;
+}
+.team-category .card-body img{
+    width: 100%!important;
+    height: 100%!important;
+    display: block;
+    border-radius: 6px;
+    max-width: none!important;
+}
+.team-category .image-input .image-input-wrapper {
+    width: 250px;
+}
+.team-member .search-input {
+    border: none!important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1)!important;
+    border-radius: 0;
+    width: 40%!important;
+    display: block;
+    float: right;
+    transition: all ease-in-out .3s;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    color: #fff!important;
+    position: relative;
+}
+.team-member .input-icon span {
+    right: 104px;
+    left: auto;
+    top: 19px;
+    transition: all ease-in-out .3s;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+}
+.team-member .input-icon .form-control {
+    padding-left: 9px;
+}
+.team-member .search-input:active, .team-member .search-input:hover, .team-member .search-input:focus {
+    width: 100%!important;
+}
+.team-member .input-icon span.animated {
+    right: auto;
+    left: 0;
+}
+
+.cursor-pointer{
+    cursor: pointer!important;
+}
+
+.team-member-show .symbol.symbol-xxl-100 > img {
+    width: 100%;
+    max-width: 87px;
+    height: 50px;
+}
+.tech-card .card-body{
+    padding: 8px 8px!important;
+}
+.tech-card img{
+    max-width: 20px;
+    display: inline-block;
+}
+
+.tech-card .text{
+    display: inline-block;
+}
+.service-card .nav-item {
+    background: #fff;
+    color: #5662f5;
+    font-weight: 900;
+    border-radius: 7px;
+    margin-bottom: 9px;
+    border: 1px solid #e8e8e8;
+    transition: all ease-in-out .3s;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+}
+
+
+/* .service-card .nav-item:hover{
+    background: linear-gradient(45deg, #985aed, #7836e4);
+    color: #fff;
+}
+*/
+#particles-js{
+    width: 100%;
+    height: 350px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: linear-gradient(45deg, #0054d0, #07a596); */
+    background: linear-gradient(45deg, #15252c, #0e1e25);
+}
+
+#kt_subheader h2, #kt_subheader a{
+    z-index: 3;
+}
+
+.required {
+    border-left: 1px solid red!important;
+    border-radius: 0 7px 7px 0!important;
+}
+::-webkit-scrollbar {
+    width: 10px!important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1!important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888!important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555!important;
+}
+#login-anime {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(45deg, #0e1e25, #0e1e25);
+    overflow: auto;
+}
+
+.login-cont {
+    position: absolute;
+    display: flex!important;
+    background: transparent;
+    width: 50%;
+    margin: auto;
+    margin-top: 0;
+    border: 1px solid #00000050;
+    border-radius: 12px;
+
+    overflow: hidden;
+    top: 20vh;
+    left: 24.5vw;
+}
+.login-cont > div{
+    padding: 100px 40px;
+}
+.login-form{
+    background: rgba(0, 0, 0,.05);
+    padding: 100px 30px;
+}
+.login-cont .welcome{
+    background: rgba(0, 0, 0,.2);
+    padding: 40px 40px;
+}
+.login-cont .welcome img{
+    margin-bottom: 60px;
+}
+.login-form input,.login-form input:active {
+    padding: 10px 12px !important;
+    background: transparent!important;
+    color: #eee!important;
+    border: 1px solid #eeeeee50!important;
+    font-weight: 200;
+}
+
+.login-form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #eeeeee!important;
+    opacity: 1; /* Firefox */
+}
+
+.login-form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #eeeeee!important;
+}
+
+.login-form input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #eeeeee!important;
+}
+.login-form .btn.btn-primary {
+    color: #FFFFFF;
+    background-color: #6993FF;
+    border-color: #6993FF;
+    background: linear-gradient(45deg, #15252c, #0e1e25);
+    border-color: #000000!important;
+}
+.login-cont .welcome .copy-right{
+    bottom: 20px;
+    position: absolute;
+}
+#error-anime{
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(0deg, #061419, #00b7be);
+}
+#error-anime h1{
+    color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 9%;
+    margin: 0 0;
+    font-size: 300px;
+}
+#error-anime .login-cont {
+    top: 24vh;
+}
+#error-anime .login-cont > div {
+    padding: 0 40px;
+}
+.scene{
+    perspective: 600px;
+    width:100%;
+    height: 100%;
+    
+}
+.cube{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.cube-face {
+    width: 100%;
+    height: 100%;
+}
+.front-face  { 
+    transform: rotateY(  0deg); 
+    background: #00000050;
+}
+.right-face  { 
+    transform: rotateY( 45deg); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ff000020;
+}
+form .bootstrap-select .dropdown-menu.inner > li.dropdown-header {
+    display: none;
+}
+.example .example-preview {
+    padding: 1.75rem 20px;
+    max-height: 800px;
+    overflow-y: scroll;
+}
+.timeline-item{
+    position: relative;
+    top: 0;
+    display: block;
+    min-height: auto;
+    margin-bottom: 50px;
+}
+.wave {
+    background-color: #f3f6f9f2;
+}
+.live-calc{
+    position: absolute;
+    bottom: 0;
+}
+.only-screen{
+    display: block;
+}
+.only-mobile{
+    display: none;
+}
+.login-box{
+    height: 100%;
+}
+
+
+
+
+
+
+
+@media (max-width: 1300px){
+    .login-cont {
+        width: 90%;
+        left: 5vw;
+    }
+    
+}
+
+@media (min-width: 992px){
+    .team-member .symbol.symbol-lg-75 > img{
+        width: 100%;
+        max-width: 75px;
+        height: 55px;
+    }
+    .team-member .dropdown-menu a {
+        float: right;
+        margin-right: 12px;
+        display: block;
+        width: 100%;
+        text-align: right;
+        padding: 3px;
+    }
+}
+
+@media (min-width: 767px){
+    .wide-modal .modal-dialog {
+        max-width: 900px;
+        margin: 1.75rem auto;
+    }
+    .wide-modal iframe{
+        width: 100%;
+        min-height: 700px;
+    }
+    .widest-modal .modal-dialog {
+        max-width: 1200px;
+        margin: 1.75rem auto;
+    }
+}
+
+
+@media (max-width: 767px){
+    .table {
+        width: 100%;
+        display: block;
+        overflow-x: scroll;
+    }
+    .login-cont{
+        top: 15px;
+    }
+    .login-cont.row .col-6{
+        width: 100%!important;
+        max-width: 100%!important;
+        flex: 0 0 100%;
+    }
+    #login-anime {
+        height: 107%;
+        background: linear-gradient(45deg, #0e1e25, #0e1e25);
+        text-align: center;
+    }
+    #login-anime .text-dark-50, #login-anime .text-dark-75{
+        color: #e1e1e1 !important;
+    }
+    .login-cont > div {
+        padding: 0px 40px;
+    }
+    .login-form .btn.btn-primary {
+        color: #FFFFFF;
+        background-color: #6993FF;
+        border-color: #6993FF;
+        /* background: linear-gradient(45deg, #2c7ee180, #2cade1); */
+        display: block;
+        margin: auto;
+    }
+    .login-cont .welcome img {
+        margin-bottom: 60px;
+        margin: 0 auto 60px;
+        max-width: 80%;
+        display: block;
+    }
+    .header-menu-mobile .menu-nav > .menu-item.menu-item-here > .menu-link .menu-text {
+        font-weight: 600;
+    }
+    .header-menu-mobile .menu-nav > .menu-item.menu-item-open > .menu-link .menu-arrow:before{
+        display: none;
+    }
+    .live-calc {
+        position: relative;
+        bottom: auto;
+    }
+    .only-screen{
+        display: none;
+    }
+    .only-mobile{
+        display: block;
+    }
+    .option .option-label {
+        width: 100%;
+        overflow: hidden;
+    }
+    #login-anime {
+        height: 107%;
+    }
+}
+
+@media (max-width: 500px){
+    #error-anime h1{
+        font-size: 34vw;
+        padding: 0;
+    }
+    #login-anime {
+        height: 109%;
+    }
+    
+}
+
+@media (max-width: 350px){
+   
+    #login-anime {
+        height: 120%;
+    }
+    
+}
+

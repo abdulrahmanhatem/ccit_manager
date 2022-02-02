@@ -1,0 +1,63 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+.content-right {
+    overflow-y: hidden;
+}
+.budget_slider span:before {
+    content: '';
+}
+.budget_slider span:after {
+    content: 'SAR';
+}
+.ltr *{
+    direction: ltr;
+}
+button.submit:before{
+    display: none;
+}
+.content-left-wrapper {
+    background: linear-gradient(45deg, #222831, #3a3a3a);
+}
+button.backward, button.forward, button.submit {
+    background: linear-gradient(45deg, #222831, #8a98ab);
+}
+.container_check input:checked ~ .checkmark {
+    background: linear-gradient(45deg, #222831, #808fa6);
+}
+button.backward, button.forward, button.submit {
+    color: #fff!important;
+}
+.rangeslider__fill {
+    background: linear-gradient(270deg, #f6a33c, #cb4e4a)!important;
+}
+.budget_slider span {
+    color: #f65464;
+}
+.ui-widget-header {
+    background: linear-gradient(90deg, #343739, #b0bec9)!important;
+}
+.summary ul li h5 {
+    font-weight: 600;
+    color: #2b3139;
+}
+.backward:hover, .backward:hover, .forward:hover {
+    color: #fff;
+    background: linear-gradient(45deg, #f15c58, #ff9191);
+}
+.ui-progressbar {
+    height: 6px!important;
+    text-align: left;
+}
+.ui-progressbar .ui-progressbar-value {
+    margin: 0px!important;
+}
+.ui-slider-horizontal .ui-slider-range {
+    height: 102%!important;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus,
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border-radius: 4px;
+    border: 1px solid #8e1512!important;
+    background: #ff7c79!important;
+}
